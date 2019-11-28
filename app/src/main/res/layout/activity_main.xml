@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#0099cc"
+        android:gravity="center_vertical"
+        android:paddingLeft="50dp"
+        android:text="@string/text_1"
+        android:textColor="#ffffff"
+        android:textSize="24sp"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingHorizontal="70dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="40dp"
+            android:src="@drawable/splash_logo" />
+
+        <Button
+            android:id="@+id/btn_1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn1"
+            android:drawableLeft="@drawable/ic_user"
+            android:drawablePadding="-50dp"
+            android:paddingLeft="50dp"
+            android:text="用户名登录"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/btn_2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn1"
+            android:drawableLeft="@drawable/account_sina"
+            android:paddingLeft="50dp"
+            android:text="新浪微博"
+            android:drawablePadding="-50dp"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/btn_3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn1"
+            android:drawableLeft="@drawable/account_tencent"
+            android:paddingLeft="50dp"
+            android:text="腾讯微博"
+            android:drawablePadding="-50dp"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/btn_4"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:background="#00000000"
+            android:text="注册"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>
